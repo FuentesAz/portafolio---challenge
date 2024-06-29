@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+
+    background-color: rgb(54, 122, 181);
+    border-radius: 25px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    ;
+}
+
+/* PRESENTACION */
+
+.presentacion {
+    display: flex;
+    height: 100%;
+}
+
+.caja-presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.bloque-presentacion{
+    padding: 4% 0;
+}
+
+.presentacion-titulo {
+    font-size: 60px;
+    white-space: pre-line;
+}
+
+.presentacion-span {
+    font-size: 18px;
+    white-space: pre-line;
+}
+
+.presentacion-lista {
+    display: flex;
+}
+
+.presentacion-lista li {
+    display: flex;
+    align-items: center;
+}
+
+.presentacion-lista li img {
+    margin-left: 5px;
+}
+
+.presentacion-lista li {
+    list-style: none;
+    padding-right: 3%;
+
+}
+
+.presentacion-lista li a {
+    text-decoration: none;
+}
+
+/* SOBRE MI */
+
+/* .sobre-mi{
+    position: relative;
+    background-color: #EAF2FD;
+    height: 450px;
+    
+}
+
+.sobre-mi-contenido h1{
+    margin-bottom: 2%;
+}
+
+.sobre-mi-contenido{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 25%;
+} */
+
+.sobre-mi {
+    background-color: #EAF2FD;
+    padding: 5%;
+}
+
+.sobre-mi-contenido h1 {
+    margin-bottom: 2%;
+}
+
+.sobre-mi-contenido {
+    padding-right: 25%;
+}
+
+/* SKILLS */
+
+.hobbies {
+    background-color: #F5F5F5;
+    padding: 5% 0;
+}
+
+.skills {
+    background-color: #F5F5F5;
+    padding: 5% 0 6%;
+
+}
+
+.hobbies h1,
+.skills h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
+.skills-contenedor,
+.hobbies-contenedor {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: nowrap;
+    padding: 0% 3%;
+}
+
+.skills-contenedor-caja,
+.hobbies-contenedor-caja {
+    flex: 0 0 auto;
+    position: relative;
+    background-color: white;
+    padding: 5% 1%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    /* Ancho mínimo para asegurar que todas las cajas tengan el mismo tamaño */
+}
+
+.skills-contenedor-caja img,
+.hobbies-contenedor-caja img {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+}
+
+.skills-contenedor-caja span,
+.hobbies-contenedor-caja span {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-size: 16px;
+    color: #333;
+    font-weight: 800;
+}
+
+/* FORMACION */
+
+.formacion {
+    background-color: #EAF2FD;
+    text-align: center;
+    padding: 5%;
+}
+
+.formacion h1 {
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.formacion-bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.formacion-cajas {
+    position: relative;
+}
+
+.formacion-cajas-contenido span,
+.formacion-cajas-contenido {
+    position: absolute;
+    left: 0;
+}
+
+/* EXPERIENCIA */
+
+.experiencia {
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.experiencia h1 {
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.experiencia-caja {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5%;
+}
+
+/* .experiencia-caja {
+    background-color: #F5F5F5;
+
+} */
+
+.experiencia-contenido {
+    text-align: left;
+    padding: 10px;
+}
+
+.experiencia-contenido h3 {
+    font-size: 25px;
+}
+
+.experiencia-contenido p {
+    font-size: 17px;
+    padding: 2% 0;
+}
+
+.repositorio-btn,
+.demo-btn {
+    padding: 20px 25px;
+    margin-right: 10px;
+}
+
+.repositorio-btn {
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer;
+}
+
+.demo-btn {
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+/* FORMULARIO */
+
+.formulario{
+    background: #EAF2FD;
+    padding: 10% 5%;
+}
+
+.formulario-caja{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.formulario-grupo label{
+    display: flex;
+    color: #A2A2A2;
+}
+
+.formulario-grupo{
+    background: white;
+    margin: 1% 0;
+    padding: 0.5% 1%;
+    border-radius: 5px;
+    margin: 5% 0;
+    border-bottom: 2px solid #d2d6db;
+}
+
+
+.formulario-grupo textarea{
+    height: 95px;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+
+}
+
+.formulario-grupo input{
+    border: none;
+    width: 100%;
+    outline: none;
+
+}
+
+.formulario-caja-contenido button{
+    padding: 15px 25px;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: white;
+    cursor: pointer;
+
+}
+
+.input-focused {
+    border-color: #007bff !important; /* Importante para sobrescribir otros estilos */
+}
+
+.label-focused {
+    color: #007bff !important;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    padding: 2% 0; 
+    text-align: center;
+}
